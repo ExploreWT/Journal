@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Journal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="theme/default.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <div id="nav">
+  <ul class="dropdown">
+      <a href="index.html"><li>Home</li></a>
+      <li>
+          <div>Issues</div>
+          <ul>
+              <a href="issues.html"><li>Issue 1. Love and Science</li></a>
+          </ul>
+      </li>
+      <li>
+          <a href="about.html"><div>About the project</div></a>
+          <ul>
+              <a href="about.html#docpage"><li>Documentation</li></a>
+              <a href="about.html#teampage"><li>Team</li></a>
+          </ul>
+      </li>
+      <li data-toggle="modal" data-target="#modalDisclaimer"><a href="#">Disclaimer</a></li>
+      <li id="themechoose">
+          <div>Choose website theme</div>
+          <ul>
+              <li onclick="chooseTheme('default')">Default</li>
+              <li onclick="chooseTheme('1500-1800')">1500-1800</li>
+              <li onclick="chooseTheme('20th')">First half of XX century</li>
+              <li onclick="chooseTheme('21th')">Late XX Century / start of XXI Century</li>
+              <li onclick="chooseTheme('2030')">2030</li>
+          </ul>
+      </li>
+  </ul>
+  </div>
+  <!-- End of Navigation -->
+	
+  <!-- First section -->
+  <div id="first_block">
+    	<h1>Welcome to <i>Explore</i> Journal</h1>
+        <h5>Dive into the world of science.<br> 
+            Study complex scientific articles through our simple text analysis tools.<br>  
+            New Explore Journal issues are published every week.</h5>                
+        <a href="#second_block">
+          <button id="start_button">Start</button>
+        </a>
+  </div>
+  <!-- End First section -->
+ 
+  <!-- Second section -->
+  <div class="container-fluid" id="second_block">
+  	<div class="row">
+    	<h1>What are we helpful for?</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4 left_2" id="second_block_img1">
+          <h2>1</h2>
+        </div>
+        <div class="col-md-8 main_2">
+          <p><b>Change the website theme</b> using buttons in the navigation menu on the top of a page.</p>
+          <p>You can choose one of the styles depending on your mood or a topic of the article that you are currently reading. Otherwise you can use neutral default style settings so nothing is bothering you from studying. It is up to you to decide!</p>
+          <p>We prepared for you 5 themes:
+            <ol>
+              <li>Default. Minimalistic design - simple color set and no extra details.</li>
+              <li>1500-1800 time span. Imagine reading an early print book. Enjoy Renaissance period.</li>
+              <li>First half of XX century. Feel the chaos of Cubism.</li>
+              <li>Late XX Century / start of XXI Century.</li>
+              <li>2030, future.</li>
+            </ol>
+          </p>
+        </div>
+    </div>   
+  	<div class="row">
+        <div class="col-md-4 left_2" id="second_block_img2">
+          <h2>2</h2>
+        </div>
+        <div class="col-md-8 main_2">
+        <p><b>Go to Issues</b> to start exploration.</p>
+        <p>Select from the list of Issues the one that interests you. 
+           EXPLORE button on the top right of the page will open for you our text analysis tools and navigate you to the exploration journey. 
+           The section gives to a reader the following possibilities:
+           <ul>
+            <li>to read the articles (with full screen one article display)</li>
+            <li>to compare the articles (with default three articles simultaneous display)</li>
+            <li>to study the articles with key words search</li>
+            <li>to study the articles statistics </li>
+           </ul>        
+          </p>
+        </div>
+    </div>    
+  </div>
+  <!-- End Second section -->  
+ 
+  <!-- Footer -->
+  <footer>
+  	<div class="container-fluid">
+  		<div class="row">
+        	<div class="col-md-6">
+            	<h4>Info</h4>
+                <p>The project website was developed by Anastasiya Sopyryaeva and Anita Vishinskaite for the course Information Modeling and Web Technologies held by Professor Fabio Vitali</p>
+            </div>        
+            <div class="col-md-6">
+                <h4>Contacts</h4>
+                <a href="mailto: anastasiya.sopyryaeva@gmail.com">anastasiya.sopyryaeva@gmail.com</a>
+            </div>
+         </div>                            
+         <div class="row">
+         	<p id="copyright">&copy; 2022 Copyright: Anastasiya Sopyryaeva, Anita Vishinskaite</p>
+         </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+          
+  <!-- Disclaimer Section -->
+  <div class="modal fade" id="modalDisclaimer" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Disclaimer</h5>
+        </div>
+        <div class="modal-body">
+          <p>The purpose of this web site is to explore various types of typographic and layout style for text documents, as an end-of-course project for the "Information Modelling and Web Technologies" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, held by professor Fabio Vitali.</p>
+          <p>The documents contained in this web site have been selected for their length and complexity from various websites and magazines. Their publication here is not intended to be an alternative or replace their original locations. The original publications are to be found at:</p>
+            <ul>
+                <li><a href="https://news.harvard.edu/gazette/story/2018/02/scientists-find-a-few-surprises-in-their-study-of-love/" target="_blank">Harvard</a></li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911849/" target="_blank">National Library of Medicine</a></li>
+                <li><a href="https://www.sciencedirect.com/science/article/pii/S2666497621000813" target="_blank">ScienceDirect</a></li>       
+            </ul>
+          <p>All copyrights and related rights on the content remain with their original owners.</p> 
+          <p>All copyright on the typographic and layout choices are 2022 &copy; Anastasiya Sopyryaeva and Anita Vishinskaite.</p> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Disclaimer Section -->
+
+</body>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

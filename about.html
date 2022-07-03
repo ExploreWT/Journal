@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About the project</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="theme/default.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div id="nav">
+  <ul class="dropdown">
+      <a href="index.html"><li>Home</li></a>
+      <li>
+          <div>Issues</div>
+          <ul>
+              <a href="issues.html"><li>Issue 1. Love and Science</li></a>
+          </ul>
+      </li>
+      <li>
+          <a href="about.html"><div>About the project</div></a>
+          <ul>
+              <a href="#docpage"><li>Documentation</li></a>
+              <a href="#teampage"><li>Team</li></a>
+          </ul>
+      </li>
+      <li data-toggle="modal" data-target="#modalDisclaimer"><a href="#">Disclaimer</a></li>
+      <li id="themechoose">
+          <div>Choose website theme</div>
+          <ul>
+              <li onclick="chooseTheme('default')">Default</li>
+              <li onclick="chooseTheme('1500-1800')">1500-1800</li>
+              <li onclick="chooseTheme('20th')">First half of XX century</li>
+              <li onclick="chooseTheme('21th')">Late XX Century / start of XXI Century</li>
+              <li onclick="chooseTheme('2030')">2030</li>
+          </ul>
+      </li>
+  </ul>
+  </div>
+  <!-- End of Navigation -->  
+
+  <!-- Documentation Section --> 
+  <div id="docpage">
+    <div id="doc_content">
+      <h1>Documentation of the project</h1>
+      <div>
+        <h3>1. Goal of the project</h3>
+        <p>The goal of the project is to create a magazine looking web application that includes two main features:  
+          <ul>
+            <li>theme switching;</li>
+            <li>sophisticated metadata enrichment of articles published in the magazine.</li>
+          </ul>
+        </p>
+        <p>Please, find below detailed description of the project.</p>
+      </div>
+      <div>
+        <h3>2. Website structure</h3>
+        <p>Navigation bar at the top of the page will guide you through the website.</p>
+        <p><b>Home:</b> welcome page with a brief introduction to the website.<br>
+        <b>Issues:</b> a list of issue pages where each page (issue) contains exactly three articles to read and study using the metadata tools. It is possible to change layout of the page with the buttons "Read full screen"/"Choose another article".<br>
+        <b>About the project:</b> website documentation page.<br>
+        <b>Disclaimer:</b> a modal message with disclaimer.<br>
+        <b>Choose the website theme:</b> a list of website themes to choose between.<br>
+        <b>*Explore:</b> a button that provides access to the metadata search tool (available on issue pages).
+      </p>
+      </div>
+      <div>
+        <h3>3. Historical theming explained</h3>
+          <p>The section is dedicated to stylistic choices justification for each historical theme.</p>
+          <h4>1) 1500-1800</h4>          
+          <p>The page layout design of 1500-1800 years in Europe was taken as a reference for the stylistic choices of the theme. It is the period when printing press had just been invented and had gradually begun to spread around the Globe. It was used mainly for printing books.
+          <p>Main design patterns used those times are as follows:</p>
+          <ul>
+            <li>Elements of medieval manuscript design are still presented in some books: borders, fonts, ornamentations (Example 1, 2)</li>
+            <li>Gothic style fonts were widely used (Example 1)</li>
+            <li>Outer and bottom margins of a book were much larger that inner and top (Example 1, 2, 3)</li>
+            <li>Mathematical proportions were often used when defining page layout. The most popular geometrical construction was the golden section (Example 3)</li>
+            <li>One column of text per page with justified content (Example 1, 2, 3)</li>
+          </ul>
+          </p>
+          <p>Example 1. Vicentino Ludovico degli Arrighi, The second edition of an early writing manual, Venice: (Nicolo d'Aristotile detto Zoppino), 1533 [<a href="#bibl">1</a>].</p>
+          <img src="img/rendoc1.jpg" class="docimg">
+          <p>Example 2. France. Grand Conseil. Arrest dv Grand Conseil donné sur la reformation de l’imprimerie, le vnziéme septembre 1544. [Lyon, 1548] [<a href="#bibl">1</a>].</p>
+          <img src="img/rendoc2.png" class="docimg">
+          <p>Example 3. The Meditations of Marcus Aurelius Antoninus, 1792. The press uses the golden section to determine the text area, and the Fibonacci sequence to arrive at relative margin sizes (inner margin 3 units; top and outer margins 5 units; bottom margin 8 units) [<a href="#bibl">1</a>].</p>
+          <img src="img/rendoc3.jpg" class="docimg">
+          <hr>
+          <p>How we applied those rules in our theme design:</p>
+          <ul>
+            <li>The parts of the website where long potions of texts are presented were designed as a book using vertical orientation of the content, large outer and bottom margins (i.e. to documentation and issues pages)</li>
+            <li>There are elements that have borders with ornamentations (i.e. team presentation part and issue page)</li> 
+            <li>Caxton's Italic font was applied to the whole website as a reminder that there is still medieval influence on the press</li>
+            <li>We tried to use mathematical proportions defining margins and paddings of text elements. Inspired by Example 3, the same relative margin/padding proportions were applied to some elements, where possible and appropriate (i.e. to documentation and issues pages)</li>
+            <li>Text content is justified across the whole website</li>
+          </ul> 
+
+          <h4>2) First half of XX century</h4> 
+          <p>The page layout design of the first half of XX century in Europe was taken as a reference for the stylistic choices of the theme. This period is dominated by such movements as Futurism and Constructivism. In design history this period is associated with attempts to replace traditional approach.</p>
+          <p>Main patterns used those times are as follows:</p>
+          <ul>
+            <li>Bright and brave color sets, font weights and font sizes, angles, text spacing (Example 1, 2, 3)</li>
+            <li>Revolutionary spirit (Example 1, 2)</li>
+            <li>Dynamic interpretation of page space (Example 1, 2)</li>
+            <li>Experiments with abstract art</li>
+            <li>Cubism as one of the most dominated styles. Experiments with rectangles, triangles, ellipses, cubes, perspectives (Example 1, 2)</li>
+            <li>Grotesk (or Sans-Serifs) typography (Example 1, 2, 3)</li>
+          </ul>
+          <p>Example 1. Futurist magazine Lacerba, 1914 [<a href="#bibl">1</a>]</p>
+          <img src="img/cubdoc1.jpg" class="docimg">
+          <p>Example 2. Theo van Doesburg, De Stijl, 1920 [<a href="#bibl">1</a>]</p>
+          <img src="img/cubdoc2.png" class="docimg">
+          <p>Example 3. Bauhausbücher 5, Neue Gestaltung Piet Mondriaan. attributed to László Moholy-Nagy, 1924 [<a href="#bibl">1</a>]</p>
+          <img src="img/cubdoc3.jpg" class="docimg">
+          <hr>
+          <p>How we applied those rules in our theme design:</p>
+          <ul>
+            <li>Asymmetrical design</li>
+            <li>Sans-Serifs fonts</li>
+            <li>Bright colors. In particular, we inserted elements colored in red that gives association with revolution</li>
+            <li>Experiments with word spacing and letter spacing</li>
+            <li>Experiments with angles</li>
+          </ul>
+
+          <hr>
+          <p id="bibl">Bibliography:</p>   
+          <ol>
+            <li>Guity Novin’s  “A History of Graphic Design”. <a href="http://guity-novin.blogspot.com/2012/04/modern-newspaper-magazine-layouts.html" target="_blank">Link</a></li>
+          </ol> 
+      </div>
+      <div>
+        <h3>4. Metadata viewer explained</h3>
+        <p>Metadata viewer is available for each article via the button EXPLORE on the <i>Issues -> Issue 1. Love and Science</i> page.</p>
+        <p>The metadata viewer has the following features:</p>
+        <ul>
+          <li>To find mentions of people, institutions, citations and keywords in articles. 
+              By clicking on one of the sections, a list of items found in the text opens. 
+              A checkbox next to each item allows the reader to highlight the item in the text. 
+          </li>
+          <li>To study the articles quantitatively through the “Statistics” section. 
+              In the section the reader can find frequency list with the mentioned items (people, institutions and keywords). 
+              Moreover by clicking on each item the reader can scroll through an article to find the exact positions of the item in the text.
+              For making comparison, one can select items of the same name in several articles and compare them simultaneously through the three articles display.
+          </li>
+        </ul>
+        <p>* To make the metadata viewer work properly, the items (words) in articles must be marked up with certain html classes in advance (class=”person” for people, class=”organization” for institutions, class=”citation” for citations, class=”keyWord” for key words).
+        <br>* Its is not possible to highlight more than 14 items at the same time.</p>
+        <p>Source code can be found on the GitHub page of the project.</p>
+      </div>
+    </div>
+  </div> 
+  <!-- End of Documentation Section --> 
+  
+  <!-- Team Section -->    
+  <div class="container-fluid" id="teampage">
+  	<div class="row">
+    	<div class="col-md-12">
+			<h1>Team</h1>
+		  </div>
+	  </div>               
+	<div class="member">
+    	<div class="container_image">
+        	<img src="img/main_doubledate.png">
+      </div>
+      <div class="container_feature_left">
+          <h3>Anita Vishinskaite</h3>
+          <p></p>
+      </div>
+    </div>
+    <div class="member">
+    	<div class="container_feature_right">
+        <h3>Anastasiya Sopyryaeva</h3>
+        <p>Graduated from faculty of Sociology, Saint Petersburg State University. Currentely studying at University of Bologna, Masters program in Digital Humanities and Digital Knowledge. For the project I developed Home page layout, Explore button functioning, "1500-1800" and "First half of XX century" historical themes, first text mark up and JavaScript code for metadata analysis. </p>
+		  </div>
+      <div class="container_image">
+        	<img src="img/Anastasiya.jpeg">
+      </div>
+    </div>
+  </div>
+  <!-- End of Team Section --> 
+            
+  <!-- Footer -->
+  <footer>
+  	<div class="container-fluid">
+  		<div class="row">
+        	<div class="col-md-6">
+            	<h4>Info</h4>
+                <p>The project website was developed by Anastasiya Sopyryaeva and Anita Vishinskaite for the course Information Modeling and Web Technologies held by Professor Fabio Vitali</p>
+            </div>        
+            <div class="col-md-6">
+                <h4>Contacts</h4>
+                <a href="mailto: anastasiya.sopyryaeva@gmail.com">anastasiya.sopyryaeva@gmail.com</a>
+            </div>
+         </div>                            
+         <div class="row">
+         	<p id="copyright">&copy; 2022 Copyright: Anastasiya Sopyryaeva, Anita Vishinskaite</p>
+         </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+          
+  <!-- Disclaimer Section -->
+  <div class="modal fade" id="modalDisclaimer" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Disclaimer</h5>
+        </div>
+        <div class="modal-body">
+          <p>The purpose of this web site is to explore various types of typographic and layout style for text documents, as an end-of-course project for the "Information Modelling and Web Technologies" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, held by professor Fabio Vitali.</p>
+          <p>The documents contained in this web site have been selected for their length and complexity from various websites and magazines. Their publication here is not intended to be an alternative or replace their original locations. The original publications are to be found at:</p>
+          <ul>
+            <li><a href="https://news.harvard.edu/gazette/story/2018/02/scientists-find-a-few-surprises-in-their-study-of-love/" target="_blank">Harvard</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911849/" target="_blank">National Library of Medicine</a></li>
+            <li><a href="https://www.sciencedirect.com/science/article/pii/S2666497621000813" target="_blank">ScienceDirect</a></li>       
+        </ul>
+          <p>All copyrights and related rights on the content remain with their original owners.</p> 
+          <p>All copyright on the typographic and layout choices are 2022 &copy; Anastasiya Sopyryaeva and Anita Vishinskaite.</p> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Disclaimer Section -->
+  
+</body>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
