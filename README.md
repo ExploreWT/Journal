@@ -1,1 +1,1 @@
-# Journal
+The purpose of this web site is to explore various types of typographic and layout style for text documents, as an end-of-course project for the "Information Modelling and Web Technologies" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, held by professor Fabio Vitali.
