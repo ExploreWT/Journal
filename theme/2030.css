@@ -677,3 +677,7 @@ figcaption {
     display: flex;
     align-items: baseline;
 }
+
+.tabcontent h5 {
+    margin-top: 0.5em;
+}
