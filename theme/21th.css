@@ -641,6 +641,62 @@ font-family: VT323-Regular, sans-serif;
     flex-direction: column;
 }
 
+.highlight-1 {
+    background-color: rgba(245, 225, 39, 0.77);
+}
+
+.highlight-2 {
+    background-color: rgba(145, 134, 29, 0.77);
+}
+
+.highlight-3 {
+    background-color: rgba(146, 238, 54, 0.77);
+}
+
+.highlight-4 {
+    background-color: rgba(82, 134, 31, 0.77);
+}
+
+.highlight-5 {
+    background-color: rgba(52, 196, 229, 0.77);
+}
+
+.highlight-6 {
+    background-color: rgba(30, 112, 131, 0.77);
+}
+
+.highlight-7 {
+    background-color: rgba(52, 229, 205, 0.77);
+}
+
+.highlight-8 {
+    background-color: rgba(31, 142, 127, 0.77);
+}
+
+.highlight-9 {
+    background-color: rgba(229, 52, 173, 0.77);
+}
+
+.highlight-10 {
+    background-color: rgba(140, 32, 106, 0.77);
+}
+
+.highlight-11 {
+    background-color: rgba(229, 52, 64, 0.77);
+}
+
+.highlight-12 {
+    background-color: rgba(174, 93, 98, 0.77);
+}
+
+.highlight-13 {
+    background-color: rgba(229, 140, 52, 0.77);
+}
+
+.highlight-14 {
+    background-color: rgba(146, 90, 34, 0.77);
+}
+
 .article.article_expand {
     flex: 3;
     padding: 1em 10em;
