@@ -728,3 +728,7 @@ font-family: VT323-Regular, sans-serif;
     display: flex;
     align-items: baseline;
 }
+
+.tabcontent h5 {
+    margin-top: 0.5em;
+}
