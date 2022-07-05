@@ -661,7 +661,8 @@ figcaption {
 }
 
 .focus {
-	background-color: #534c4d9e;
+	background-color: rgba(221, 221, 221, 0.833);
+	color: rgb(0, 0, 0);
 }
 
 .article.article_expand {
