@@ -653,9 +653,22 @@ font-family: VT323-Regular, sans-serif;
         background-color:transparent; 
         font-size: 25; 
 }
+
 .articles_block h3::before {
         content: '\25c0'; 
         padding-right: 5px;
         color: #0090f8;
 }
 
+.statistic-element {
+    cursor: pointer;
+}
+
+.statistic-element:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.section-element {
+    display: flex;
+    align-items: baseline;
+}
