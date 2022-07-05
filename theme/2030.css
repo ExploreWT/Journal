@@ -660,6 +660,11 @@ figcaption {
     background-color: rgba(146, 90, 34, 0.77);
 }
 
+.focus {
+	background-color: white;
+	color: black;
+}
+
 .article.article_expand {
     flex: 3;
     padding: 1em 10em;
