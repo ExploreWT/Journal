@@ -165,14 +165,7 @@ img {
     margin: 0;
     padding: 0;
     width: 200px;
-}
-    
-.dropdown ul ul {
-    left: 100%;
-    position: absolute;
-    z-index: 100;
-    top: 0;
-}
+}    
     
 .dropdown li:hover {
     background-color: rgba(0, 0, 0, 0.1);
@@ -290,7 +283,6 @@ figcaption {
     padding: 8px;
     width: 100%;
     border: none;
-    outline: none;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
