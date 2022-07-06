@@ -251,6 +251,8 @@ a:focus {
     z-index: 100;
     display:flex; 
     justify-content:center; 
+    background-color: transparent;
+    backdrop-filter: blur(8px);
 }
 
 #nav a {
@@ -266,6 +268,8 @@ a:focus {
 
 .dropdown {
     font-family: TurretRoad-Light, sans-serif;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
     display: flex;
     list-style-type: none;
     font-weight: 600;
