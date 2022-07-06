@@ -229,8 +229,9 @@ a:focus {
 }
 
 .container_feature_left {
-    display: table-cell;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
     flex: 1;
     margin-left: 30px;
     box-shadow: 0 0 5px 5px #f706aa;
@@ -239,8 +240,9 @@ a:focus {
 }
 
 .container_feature_right {
-    display: table-cell;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
     text-align: justify;
     flex: 1;
     margin-right: 30px;
