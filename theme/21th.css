@@ -128,7 +128,6 @@ a:focus {
     color: #fe098e;
     background-color: #fef209;
     font-family: Kavoon-Regular, sans-serif;
-    font-size: 400%
 }
 #first_block h5 {
     position: relative;
@@ -138,6 +137,7 @@ a:focus {
     background-color: #09fe79;
     font-family: Michroma-Regular, sans-serif;
     margin-top: 5px;
+    font-size: 16px;
 }
 #second_block {
     font-family: Michroma-Regular, sans-serif;
@@ -155,6 +155,7 @@ a:focus {
     font-size: 50px;
     border: none;
     background-color: transparent;
+    font-size: 40px;
 }
 #second_block h2 {
     font-family: Michroma-Regular, sans-serif;
@@ -166,6 +167,8 @@ a:focus {
     font-size: 100px;
     border: none;
     background-color: transparent;
+    font-size: 80px;
+	    
 }
 #start_button {
     cursor: url('../fonts/Cursor_15.cur'), auto;
@@ -222,17 +225,7 @@ a:focus {
 .main_2 p {
     text-align: justify;
 }
-#second_block_img1 {
-    background-image: url('../img/Group-96.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-#second_block_img2 {
-    background-image: url('../img/Group-96.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 #docpage {
     background-image: url('../img/pink.jpg');
     background-repeat: repeat;
@@ -762,4 +755,52 @@ font-family: VT323-Regular, sans-serif;
 
 .tabcontent h5 {
     margin-top: 0.5em;
+}
+
+@media (min-width: 280px) and (max-width: 1280px) {
+    body {
+        font-size: larger;
+    }
+
+
+    #nav {
+        font-size: 3vw;
+    }
+
+    #docpage, #teampage {
+        padding: 10vh 0;  
+    }
+
+    #doc_content {
+        margin: 0;
+        height: inherit;
+        width: inherit;
+    }
+
+    #teampage {
+        padding: 10vh 1em;  
+    }
+
+    .container_feature_left {
+        margin-left: 1em;
+    }
+                            
+    .container_feature_right {
+        margin-right: 1em;
+    }
+
+    .articles_block {
+        flex-direction: column;
+    }
+
+    .article.article_expand {
+        padding: 1em;
+        padding: 0.5em 4em 6em 0.5em;
+   }
+
+   #top_issue1 p {
+        padding: 0 1em;
+        text-align: center;
+   }
+
 }
