@@ -251,15 +251,11 @@ a:focus {
     z-index: 100;
     display:flex; 
     justify-content:center; 
-    background-color: transparent;
-    backdrop-filter: blur(8px);
 }
 
 #nav a {
     text-decoration: none;
     color: inherit;
-    background-color: transparent;
-    backdrop-filter: blur(8px);
 }
 
 #themechoose {
@@ -268,8 +264,6 @@ a:focus {
 
 .dropdown {
     font-family: TurretRoad-Light, sans-serif;
-    background-color: transparent;
-    backdrop-filter: blur(8px);
     display: flex;
     list-style-type: none;
     font-weight: 600;
@@ -598,6 +592,7 @@ figcaption {
 
 .nav_change {
     background-color: transparent;
+    backdrop-filter: blur(8px);
 }
 
 .article_hidden {
