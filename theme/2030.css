@@ -106,7 +106,6 @@ a:focus {
 }
 
 #first_block h1 {
-    font-size: 50px;
     font-family: ZenDots-Regular, sans-serif;
     margin-bottom: 0em;
     color: white;
@@ -114,7 +113,7 @@ a:focus {
 
 #first_block h5 {
     position: relative;
-    left: -225px;
+    left: -115px;
     color:white;
     margin-bottom: 2em;
     background:linear-gradient( to bottom right,rgba(63, 81, 181, 0.594) 0%, rgba(170, 71, 188, 0.849) 70%);
@@ -692,4 +691,52 @@ figcaption {
 
 .tabcontent h5 {
     margin-top: 0.5em;
+}
+
+@media (min-width: 280px) and (max-width: 1280px) {
+    body {
+        font-size: larger;
+    }
+
+
+    #nav {
+        font-size: 3vw;
+    }
+
+    #docpage, #teampage {
+        padding: 10vh 0;  
+    }
+
+    #doc_content {
+        margin: 0;
+        height: inherit;
+        width: inherit;
+    }
+
+    #teampage {
+        padding: 10vh 1em;  
+    }
+
+    .container_feature_left {
+        margin-left: 1em;
+    }
+                            
+    .container_feature_right {
+        margin-right: 1em;
+    }
+
+    .articles_block {
+        flex-direction: column;
+    }
+
+    .article.article_expand {
+        padding: 1em;
+        padding: 0.5em 4em 6em 0.5em;
+   }
+
+   #top_issue1 p {
+        padding: 0 1em;
+        text-align: center;
+   }
+
 }
