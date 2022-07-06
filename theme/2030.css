@@ -113,7 +113,7 @@ a:focus {
 
 #first_block h5 {
     position: relative;
-    left: -115px;
+    left: -50px;
     color:white;
     margin-bottom: 2em;
     background:linear-gradient( to bottom right,rgba(63, 81, 181, 0.594) 0%, rgba(170, 71, 188, 0.849) 70%);
