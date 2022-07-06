@@ -230,17 +230,17 @@ a:focus {
 
 .container_feature_left {
     flex: 1;
+    font-weight: bolder;
     margin-left: 30px;
-    box-shadow: 0 0 5px 5px #f706aa;
     padding: 8px;
     text-align: justify;
 }
 
 .container_feature_right {
+    font-weight: bolder;
     text-align: justify;
     flex: 1;
     margin-right: 30px;
-    box-shadow: 0 0 5px 5px #f706aa;
     padding: 8px;
 }
 
