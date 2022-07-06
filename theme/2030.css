@@ -237,6 +237,7 @@ a:focus {
     box-shadow: 0 0 5px 5px #f706aa;
     padding: 8px;
     text-align: justify;
+    font-weight: bolder;
 }
 
 .container_feature_right {
@@ -248,6 +249,7 @@ a:focus {
     margin-right: 30px;
     box-shadow: 0 0 5px 5px #f706aa;
     padding: 8px;
+    font-weight: bolder;
 }
 
 #nav {
