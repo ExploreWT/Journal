@@ -597,8 +597,7 @@ figcaption {
 }
 
 .nav_change {
-    backdrop-filter: blur(8px);
-    background: transparent;
+    background-color: transparent;
 }
 
 .article_hidden {
