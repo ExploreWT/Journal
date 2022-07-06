@@ -251,7 +251,7 @@ a:focus {
 }
 
 #teampage {
-    background-color: #f9f9f9;
+    background-color: #f7c8d8;
     min-height: 100vh;
     padding: 10vh;
     text-align: center;
@@ -267,16 +267,49 @@ a:focus {
 }
 
 .container_feature_left {
+    text-decoration: underline;
+    font-style: bold;
     flex: 1;
     margin-left: 30px;
-    word-spacing: 10px;
+    text-align: justify;
 }
 
 .container_feature_right {
+    text-decoration: underline;
+    font-style: bold;
     flex: 1;
     margin-right: 30px;
-    letter-spacing: 4px;
+    text-align: justify;
 }
+
+.container_feature_left h3{ 
+    list-style: none; 
+    text-indent: 0em;
+    color: #0090f8;
+    background-color:transparent; 
+    font-size: 25; 
+}
+
+.container_feature_left h3::before{ 
+    content: '\25c0'; 
+    padding-right: 5px;
+    color: #0090f8;
+}
+
+.container_feature_right h3{ 
+    list-style: none; 
+    text-indent: 0em;
+    color: #0090f8;
+    background-color:transparent; 
+    font-size: 25; 
+}
+
+.container_feature_right h3::before{  
+    content: '\25c0'; 
+    padding-right: 5px;
+    color: #0090f8;
+}
+
 
 #nav {
     position: fixed;
